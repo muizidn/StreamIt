@@ -1,0 +1,21 @@
+targets:
+  StreamIt:
+    type: application
+    platform: iOS
+    sources:
+      - path: "StreamIt"
+        includes:
+          - "**/*.storyboard"
+          - "**/*.xib"
+          - "**/*.xcassets"
+          - "**/*.strings"
+          - "**/*.ttf"
+          - "**/*.swift"
+          - "**/*.h"
+          - "**/*.m"
+          - "**/*.plist"
+          - "**/*.xcdatamodeld"
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.muizidn.StreamIt
+      SWIFT_OBJC_BRIDGING_HEADER: "StreamIt/StreamIt-Bridging-Header.h"
+      DEVELOPMENT_TEAM: SDSLU2QT5X

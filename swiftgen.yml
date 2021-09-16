@@ -1,0 +1,17 @@
+strings:
+  inputs: PrivyPass/en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: PrivyPass/Generated+Strings.swift
+fonts:
+  inputs: Red_Hat_Text
+  outputs:
+    templateName: swift5
+    output: PrivyPass/Generated+Fonts.swift
+xcassets:
+  inputs: 
+    - PrivyPass/Assets.xcassets
+    - PrivyPass/Colors.xcassets
+  outputs:
+    templateName: swift5
+    output: PrivyPass/Generated+Assets.swift

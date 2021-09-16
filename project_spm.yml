@@ -1,0 +1,12 @@
+targets:
+  StreamIt:
+    dependencies:
+      - target: CocoaAsyncSocket
+  CocoaAsyncSocket:
+    type: framework
+    platform: iOS
+    sources:
+      - path: .build/checkouts/CocoaAsyncSocket/Source
+        group: "SPM"
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.muizidn.$(TARGET_NAME)

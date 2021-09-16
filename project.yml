@@ -1,0 +1,6 @@
+name: StreamIt
+include:
+  - project_app.yml
+  - project_spm.yml
+options:
+  developmentLanguage: en
